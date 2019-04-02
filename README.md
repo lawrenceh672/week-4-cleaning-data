@@ -1,4 +1,9 @@
 # week-4-cleaning-data
-This script reads the zip file from samsung.  It proceeds to open the zip file and merge the training and test values. then it tidies up the data applying readable names to the columns and using factors to give human readable names to the numbering system for the activity.
+run_analysis studied the biometric information from test subjects doing ordinary things. it sorts it by subject and their activity type.
+it then calculates the means.
 
-finally it returns a list of 2 members, one for the large data set with all the values and a second element with the averages based on the 6 factor levels.
+First it merges the test and training data
+then it adds descriptive names to the activity types
+then it sorts them by subject and activity and calculates the mean of it.
+the function then returns a list of the full data and the just the std and mean information
+and writes a file for uploading
