@@ -1,8 +1,1 @@
-run_analysis studied the biometric information from test subjects doing ordinary things. it sorts it by subject and their activity type.
-it then calculates the means.
-
-First it merges the test and training data
-then it adds descriptive names to the activity types
-then it sorts them by subject and activity and calculates the mean of it.
-the function then returns a list of the full data and the just the std and mean information
-and writes a file for uploading
+Data cleaning week 4 quiz. this makes a function called run_analysis which breaks down a data set from biometric sensors. it merges test and training data into a tidy conclusion demonstrating how various sensors act when a person perform set movements.
